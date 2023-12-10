@@ -1,0 +1,10 @@
+import:
+  - file: '../../.kibot/kici_common.kibot.yaml'
+
+preflight:
+  filters:
+    - filter: 'KiCad bug #6918, self-contained project fails with 3D models'
+      error: 'lib_footprint_mismatch'
+    - filter: 'KiCad bug #2558 Shield(earth) connections are part of the metal housing'
+      error: 'unconnected_items'
+      regex: '[Earth]'
