@@ -249,3 +249,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# KiBot reports
+kibot_errors.filter
