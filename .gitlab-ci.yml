@@ -8,7 +8,7 @@ include:
       stage_lint: 'lint'
       stage_build: 'build'
       attach_diff: 'true'
-      projects: 'breakout_hdmi breakout_hdmi_mini pod_lmh7322 pod_lmh7324'
+      projects: 'breakout_hdmi breakout_hdmi_mini pod_lmh7322 pod_lmh7324 pod_sn65lvds'
   - component: gitlab.com/ci-includes/pipeline-deployers/release-announcer@v0.1.0
     inputs:
       release_assets: 'assets/release.json'
