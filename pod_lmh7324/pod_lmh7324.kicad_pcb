@@ -9526,7 +9526,7 @@
   (via (at 89.475 72) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 40) (tstamp fd8829a1-f6e4-4ccb-a97e-3b9c38272b40))
   (segment (start 89.475 73) (end 89.475 72) (width 0.3) (layer "B.Cu") (net 40) (tstamp 9ef46b17-6166-45b9-a3f5-e0a393c7657a))
 
-  (zone (net 1) (net_name "GND") (layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu") (tstamp 68cbe397-78e3-4ece-b654-9e3254c08d89) (hatch edge 0.5)
+  (zone (net 1) (net_name "GND") (layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu") (tstamp 68cbe397-78e3-4ece-b654-9e3254c08d89) (name "GND") (hatch edge 0.5)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.5) (thermal_bridge_width 0.5))

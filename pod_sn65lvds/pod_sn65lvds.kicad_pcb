@@ -6778,7 +6778,7 @@
   (segment (start 120.12 64.5) (end 115.5 69.12) (width 0.25) (layer "F.Cu") (net 26) (tstamp 6b9c63ce-be8f-400e-9c2c-aa1410dceed0))
   (segment (start 115.5 69.12) (end 115.5 69.5) (width 0.25) (layer "F.Cu") (net 26) (tstamp a78ae28b-77ef-4013-bd54-f08af236c28c))
 
-  (zone (net 25) (net_name "GND") (layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu") (tstamp 68cbe397-78e3-4ece-b654-9e3254c08d89) (hatch edge 0.5)
+  (zone (net 25) (net_name "GND") (layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu") (tstamp 68cbe397-78e3-4ece-b654-9e3254c08d89) (name "GND") (hatch edge 0.5)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.5) (thermal_bridge_width 0.5))
