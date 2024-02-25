@@ -1,5 +1,5 @@
 import:
-  - file: '../../.kibot/kici_common.kibot.yaml'
+  - file: '../../.kici/kibot_jobs/kici_common.kibot.yaml'
 
 preflight:
   filters:
