@@ -5,6 +5,7 @@
 include:
   - component: gitlab.com/ci-includes/kici/gitlab-component@v0.4.2
     inputs:
+      kibot_ver: 'dev'
       stage_lint: 'lint'
       stage_build: 'build'
       attach_diff: 'true'
